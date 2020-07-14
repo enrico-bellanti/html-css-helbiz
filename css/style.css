@@ -137,3 +137,48 @@ a {
 .product-img{
   width: 80%;
 }
+
+/* sezione mobile */
+
+#helbiz-mobile{
+  height: 625px;
+  margin-bottom: 80px;
+  background-image: url(../img/sezione-mobile.png);
+}
+
+/* sezione banner */
+
+.banner-top{
+  position: relative;
+  height: 625px;
+  background-image: url(../img/scooter.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.scooter-text{
+  position: absolute;
+  top:50%;
+  transform: translateY(-50%);
+  text-align: center;
+  color: #fff;
+}
+.scooter-text-wrapper{
+  width: 70%;
+}
+
+.scooter-text h2{
+  font-size: 3rem;
+  font-weight: bold;
+
+}
+.scooter-text h3{
+  margin: 25px 0;
+  font-size: 1.3rem;
+  font-weight: normal;
+}
+.scooter-text a{
+  font-size: 1.3rem;
+  color: #fff;
+}
