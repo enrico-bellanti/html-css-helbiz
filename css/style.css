@@ -145,9 +145,38 @@ a {
 /* sezione mobile */
 
 #helbiz-mobile{
-  height: 625px;
+  height: 600px;
   margin-bottom: 80px;
-  background-image: url(../img/sezione-mobile.png);
+  background-image: url(../img/banner-mobile-section.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+
+#helbiz-mobile h3{
+  margin-top: 450px;
+  margin-left: 50px;
+  font-size: 2rem;
+  text-align: right;
+}
+
+#helbiz-mobile h4{
+  font-size: 1.4rem;
+  margin-bottom: 15px;
+}
+
+#helbiz-mobile img{
+  width: 60%;
+  margin-top: 130px;
+}
+
+#helbiz-mobile .col-img-iphone{
+  text-align: center;
+}
+
+#steps{
+  margin-top: 450px;
 }
 
 /* sezione banner */
