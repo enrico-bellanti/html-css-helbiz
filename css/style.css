@@ -45,6 +45,12 @@ a {
 .side-menu {
   text-align: right;
 }
+#language{
+  color: #000;
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+  padding: 0 5px;
+}
 
 .btn {
   padding: 10px 20px;
