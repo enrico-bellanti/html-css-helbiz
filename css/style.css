@@ -107,3 +107,33 @@ a {
 .logo-google{
   margin-left: 15px;
 }
+
+
+/* sezione prodotti */
+
+#product-section{
+  margin: 80px 0;
+}
+
+.product{
+  padding: 50px;
+  background-color: #fafafa;
+  text-align: center;
+}
+
+.product-logo{
+  width: 30%;
+}
+
+.product h3{
+  margin: 30px 0;
+  font-weight: normal;
+}
+
+.product a{
+ color: #0093db;
+}
+
+.product-img{
+  width: 80%;
+}
