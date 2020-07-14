@@ -182,3 +182,25 @@ a {
   font-size: 1.3rem;
   color: #fff;
 }
+
+.banner-bottom{
+  margin: 80px 0;
+}
+
+.vertical-banner{
+  text-align: center;
+  color: #fff;
+}
+
+.vertical-banner a{
+  color: #fff;
+}
+
+.vertical-banner-wrapper.left{
+  background-color: darkgrey;
+  padding-right: 20px;
+}
+
+.vertical-banner-wrapper.right{
+  padding-left: 20px;
+}
