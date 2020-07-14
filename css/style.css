@@ -119,11 +119,20 @@ a {
   margin: 80px 0;
 }
 
-.product{
+.product.left{
+  padding-right: 20px;
+}
+.product.right{
+  padding-left: 20px;
+}
+
+
+#product-section .wrapper{
   padding: 50px;
   background-color: #fafafa;
   text-align: center;
 }
+
 
 .product-logo{
   width: 30%;
