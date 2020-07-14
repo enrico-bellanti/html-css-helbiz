@@ -12,6 +12,10 @@ a {
   display: inline-block;
 }
 
+.list-n-style{
+  list-style: none;
+}
+
 /* HEADER */
 
 /* header top */
@@ -171,8 +175,8 @@ a {
 .scooter-text h2{
   font-size: 3rem;
   font-weight: bold;
-
 }
+
 .scooter-text h3{
   margin: 25px 0;
   font-size: 1.3rem;
@@ -187,6 +191,20 @@ a {
   margin: 80px auto;
 }
 
+.vertical-banner h2{
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+
+.vertical-banner a{
+  margin: 25px 0;
+  font-size: 1.3rem;
+  font-weight: normal;
+  color: #fff;
+}
+
 .vertical-banner.left{
   padding-right: 20px;
 }
@@ -198,17 +216,97 @@ a {
   height: 640px;
   text-align: center;
   color: #fff;
-  padding-right: 20px;
-}
-
-.vertical-banner-wrapper.left{
   background: linear-gradient(#41566a, #252f38) 50% no-repeat;
 }
 
-.vertical-banner-wrapper.right{
-  background: linear-gradient(#41566a, #252f38) 50% no-repeat;
+
+
+.bg-iphone{
+  height: 100%;
+  background-image: url(../img/iphone-bg-banner-section.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-position: bottom;
 }
 
-.vertical-banner a{
+.bg-city{
+  background-image: url(../img/city-banner-section.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.banner-bottom .banner-text{
+  padding: 70px;
+}
+
+.banner-bottom .banner-text{
+  padding: 50px 80px 0 50px;
+}
+
+/* footer */
+
+footer{
+  background-color: #000;
+  height: 600px;
+}
+
+/* footer-top */
+
+.footer-top{
+  padding-top: 80px;
+  margin-bottom: 100px;
+}
+
+.footer-top img{
+  width: 50%;
+
+}
+
+.footer-top h2{
+  margin-top: 100px;
+  font-size: 2.8rem;
+  font-weight: bold;
   color: #fff;
+}
+
+.footer-top h4{
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.footer-top a{
+  color: #fff;
+  line-height: 35px;
+}
+
+/* footer-bottom */
+
+.footer-bottom{
+  line-height: 40px;
+}
+
+.footer-bottom li{
+  color: #fff;
+  font-size: 0.8rem;
+}
+.footer-bottom li a{
+  color: #fff;
+  font-size: 0.8rem;
+  margin-right: 20px;
+}
+
+.footer-bottom .social a{
+  color: #fff;
+  font-size: 1.3rem;
+  margin-right: 20px;
+}
+
+.footer-logo-app{
+
+}
+
+.footer-bottom .logo-apple, .footer-bottom .logo-google{
+  width: 130px;
+  border: 1px solid #fff;
+  border-radius: 10px;
 }
