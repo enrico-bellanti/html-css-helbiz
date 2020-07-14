@@ -184,24 +184,31 @@ a {
 }
 
 .banner-bottom{
-  margin: 80px 0;
+  margin: 80px auto;
 }
 
-.vertical-banner{
+.vertical-banner.left{
+  padding-right: 20px;
+}
+.vertical-banner.right{
+  padding-left: 20px;
+}
+
+.vertical-banner-wrapper{
+  height: 640px;
   text-align: center;
   color: #fff;
   padding-right: 20px;
 }
 
-.vertical-banner a{
-  color: #fff;
-}
-
 .vertical-banner-wrapper.left{
-  background-color: darkgrey;
-
+  background: linear-gradient(#41566a, #252f38) 50% no-repeat;
 }
 
 .vertical-banner-wrapper.right{
-  padding-left: 20px;
+  background: linear-gradient(#41566a, #252f38) 50% no-repeat;
+}
+
+.vertical-banner a{
+  color: #fff;
 }
