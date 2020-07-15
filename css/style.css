@@ -144,7 +144,7 @@ a {
 
 
 .product-logo{
-  width: 30%;
+  height: 23px;;
 }
 
 .product h3{
@@ -154,10 +154,14 @@ a {
 
 .product a{
  color: #0093db;
+
 }
 
 .product-img{
-  width: 80%;
+  max-width: 100%;
+  max-height: 300px;
+  display: block;
+  margin: auto;
 }
 
 /* sezione mobile */
@@ -331,6 +335,10 @@ footer{
   line-height: 35px;
 }
 
+.col-footer-info{
+  height: 300px;
+}
+
 /* footer-bottom */
 
 .footer-bottom{
@@ -343,19 +351,29 @@ footer{
 }
 .footer-bottom li a{
   color: #fff;
-  font-size: 0.8rem;
-  margin-right: 20px;
+  font-size: 0.7rem;
+  margin-right: 15px;
 }
 
 .footer-bottom .social a{
   color: #fff;
   font-size: 1.3rem;
-  margin-right: 20px;
+  /* margin-right: 20px; */
 }
 
-.footer-logo-app{
+@media screen and (max-width: 992px){
+
+  .col-footer-bottom{
+    text-align: center;
+  }
+
+  .social{
+    margin-bottom: 20px;
+  }
+
 
 }
+
 
 .footer-bottom .logo-apple, .footer-bottom .logo-google{
   width: 130px;
