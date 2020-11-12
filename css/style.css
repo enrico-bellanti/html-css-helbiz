@@ -363,6 +363,10 @@ footer{
 
 @media screen and (max-width: 992px){
 
+  .footer-top{
+    padding-left: 50px;
+  }
+
   .col-footer-bottom{
     text-align: center;
   }
